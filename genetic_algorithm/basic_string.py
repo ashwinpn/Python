@@ -5,7 +5,6 @@ https://en.wikipedia.org/wiki/Genetic_algorithm
 Author: D4rkia
 """
 
-from __future__ import annotations
 
 import random
 
