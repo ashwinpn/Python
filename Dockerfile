@@ -8,7 +8,7 @@ RUN  pip install numpy \
     
 WORKDIR /Python
 
-ADD genetic_algorithm/basic_string.py /Python
+ADD networking_flow/minimum_cut.py /Python
 
 # command to run on container start
 CMD [ "python3", "basic_string.py" ]
