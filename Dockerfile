@@ -11,4 +11,4 @@ WORKDIR /Python
 ADD networking_flow/minimum_cut.py /Python
 
 # command to run on container start
-CMD [ "python3", "basic_string.py" ]
+CMD [ "python3", "minimum_cut.py" ]
